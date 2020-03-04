@@ -1,0 +1,488 @@
+h3 {
+  font-size: 22px;
+  margin: 0px;
+}
+.main-text {
+  font-size: 18px;
+  color: rgba(142, 142, 142);
+  margin: px;
+}
+
+h4 {
+  font-size: 15px;
+}
+header {
+  width: 100%;
+
+  display: flex;
+}
+
+.test {
+  background: grey;
+  border: 1px solid rgb(194, 98, 98);
+}
+
+.logo {
+  width: 20%;
+  height: 80px;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu {
+  width: 50%;
+  height: 80px;
+  background: white;
+}
+.logo img {
+  margin-right: 40%;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+nav ul {
+  display: flex;
+  padding: 0px;
+  width: 80%;
+  justify-content: space-between;
+}
+
+nav ul li {
+  list-style: none;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  /* font-size: 12px; */
+  list-style: none;
+  text-decoration: none;
+  color: rgb(142, 142, 142);
+}
+
+.profile {
+  width: 30%;
+  height: 80px;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile img {
+  width: 60px;
+  margin-right: 10px;
+}
+.profile p {
+  margin: 0px;
+  color: rgb(142, 142, 142);
+}
+
+.profile h5 {
+  color: rgb(142, 142, 142);
+  margin: 0px;
+}
+p {
+  text-align: center;
+}
+
+.root {
+  display: flex;
+  height: 100vh;
+}
+
+.left-menu {
+  width: 5%;
+  height: 100px;
+}
+.filter {
+  width: 15%;
+  height: 100px;
+}
+.jobs {
+  width: 50%;
+  height: 100px;
+}
+
+/* .info {
+  width: 30%;
+  height: 100px;
+} */
+
+/**********************************
+
+
+                left-menu 
+
+
+**************************************/
+
+.left-menu {
+  height: 100%;
+
+  flex-direction: column;
+  justify-content: flex-start;
+
+  display: flex;
+  align-items: center;
+  background: #ebf0f4;
+
+  border-radius: 0 30px 0 0;
+}
+
+.box-tr {
+  display: flex;
+  height: 30%;
+  width: 100%;
+
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: space-around;
+}
+
+.menu-item {
+  width: 50%;
+}
+
+.menu-inner {
+  position: relative;
+  height: 0;
+  border: none;
+}
+
+.menu-content {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: #2f78ca;
+  border-radius: 5px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu-4-3 {
+  padding-top: 100%;
+}
+
+.ico {
+  color: #fff;
+  margin: 0px;
+  font-size: 24px;
+}
+
+/**********************************
+
+
+                filters 
+
+
+**************************************/
+
+.filter {
+  height: 100vh;
+  background: #fff;
+}
+
+.filter-settings {
+  display: flex;
+  flex-direction: column;
+  padding: 5% 10% 5% 10%;
+  justify-content: center;
+}
+
+.fs-1 {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.filter-settings {
+  margin: 0px;
+}
+.fs-1 p {
+  font-size: 15px;
+  margin: 0px;
+  margin-right: 15px;
+  padding: 5px;
+  background: #d5dce4;
+  border-radius: 5px;
+  color: #3c5169;
+}
+
+.fs-1 span {
+  margin-left: 40px;
+  font-size: 12px;
+  margin-bottom: 10px;
+  margin-top: -5px;
+}
+
+.filter-settings h4 {
+  margin: 0px;
+}
+
+.filter .main-text {
+  margin: 4px;
+  font-size: 14px;
+  text-align: left;
+  margin-left: 40px;
+}
+
+.filter-settings-one {
+  padding: 5%;
+}
+.filter-settings-one .main-text {
+  margin: 0px;
+}
+
+/*************************************
+
+
+               jobs
+
+
+**************************************/
+
+.jobs {
+  height: 100%;
+  background: #ebf0f4;
+  border-radius: 30px 30px 0 0;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 5%;
+}
+
+.search-block {
+  height: 150px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background: #ebf0f4;
+  border-radius: 20px;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.obertka {
+  width: 100%;
+  display: flex;
+  border-radius: 15px;
+  background: #fff;
+  padding-bottom: 10px;
+}
+
+form {
+  position: relative;
+  width: 95%;
+
+  margin-top: 5px;
+}
+.sb-inside {
+  width: 50%;
+  padding-left: 10px;
+  margin-top: 10px;
+}
+.sb-inside h4 {
+  margin: 0px;
+}
+
+.sb-inside p {
+  margin: 0px;
+  text-align: left;
+  overflow: hidden;
+}
+
+.sb-inside input {
+  width: 100%;
+  height: 42px;
+  border: none;
+  border-radius: 5px;
+  background: #f6f6f6;
+  padding-left: 5px;
+}
+
+.sb-inside button {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 42px;
+  height: 42px;
+  border: none;
+  cursor: pointer;
+  border-radius: 0 5px 5px 0;
+  background: #f6f6f6;
+}
+
+.main-button {
+  background: #fff;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 0 0 15px 15px;
+  padding-bottom: 10px;
+}
+
+.main-button form button {
+  width: 250px;
+  height: 42px;
+  background: #2580eb;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+
+.slots {
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  display: flex;
+}
+
+.menu-target {
+  margin-right: 15px;
+  font-size: 19px;
+  background: red;
+  padding: 10px;
+  border-radius: 5px;
+  color: #b9b9b9;
+  background: #fff;
+}
+.main-cont {
+  margin-top: 15px;
+}
+
+.cont-info {
+  background: #fff;
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  padding: 10px;
+  border-radius: 15px;
+}
+.cont-ico {
+  width: 20%;
+  text-align: center;
+}
+
+.cont-text-1 {
+  width: 40%;
+}
+.cont-text-1 h4 {
+  margin: 0px;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.cont-text-1 p {
+  text-align: left;
+  margin: 0px;
+  color: #adadad;
+  font-size: 14px;
+}
+
+.cont-text-2 {
+  width: 40%;
+  text-align: right;
+  padding-right: 10px;
+}
+
+.cont-text-2 p {
+  margin: 0px;
+  text-align: right;
+  color: #adadad;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+.cont-text-2 a {
+  text-decoration: none;
+  font-size: 12px;
+}
+
+/*************************************
+
+
+               info
+
+
+**************************************/
+.info {
+  width: 30%;
+  background: #fff;
+}
+
+.info-content {
+  padding: 10%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.info-log {
+  width: 100%;
+  text-align: center;
+}
+
+.info-log img {
+  width: 70px;
+  border: 2px solid #dfdfdf;
+  border-radius: 10px;
+}
+.info-log h4 {
+  margin: 0px;
+  font-size: 24px;
+  margin-top: 10px;
+}
+
+.info-slot {
+  text-align: center;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.info-slot h5 {
+  text-align: center;
+  margin-bottom: 0px;
+  font-size: 16px;
+}
+
+.info-slot p {
+  text-align: center;
+  margin-top: 5px;
+  font-size: 12px;
+  color: #adadad;
+}
+
+.info-button {
+  width: 100%;
+}
+
+.info-button form {
+  width: 100%;
+}
+
+.info-button form button {
+  width: 100%;
+  height: 42px;
+  background: #2580eb;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+
+.size-block {
+  width: 80%;
+  margin: 0 auto;
+  background-image: url(/img/fon.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
